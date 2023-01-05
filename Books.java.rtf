@@ -1,0 +1,82 @@
+{\rtf1\ansi\deff0\deftab480
+
+{\fonttbl
+{\f000 Courier New;}
+{\f001 Courier New;}
+{\f002 Courier New;}
+{\f003 Courier New;}
+{\f004 Courier New;}
+{\f005 Courier New;}
+{\f006 Courier New;}
+{\f007 Courier New;}
+}
+
+{\colortbl
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red255\green128\blue000;
+\red255\green255\blue255;
+\red000\green000\blue255;
+\red255\green255\blue255;
+\red128\green128\blue128;
+\red255\green255\blue255;
+\red000\green000\blue128;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+\red128\green000\blue255;
+\red255\green255\blue255;
+\red000\green000\blue000;
+\red255\green255\blue255;
+}
+
+\f0\fs20\cb15\cf14 \highlight5\cf4\b import\highlight1\cf0\b0  \highlight11\cf10 java\highlight9\cf8\b .\highlight11\cf10\b0 util\highlight9\cf8\b .*;\highlight1\cf0\b0 \par
+\highlight5\cf4\b import\highlight1\cf0\b0  \highlight11\cf10 java\highlight9\cf8\b .\highlight11\cf10\b0 io\highlight9\cf8\b .*;\highlight1\cf0\b0 \par
+\highlight13\cf12 class\highlight1\cf0  \highlight11\cf10 Book\highlight1\cf0  \highlight5\cf4\b implements\highlight1\cf0\b0  \highlight11\cf10 Serializable\highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \highlight11\cf10 String\highlight1\cf0  \highlight11\cf10 Authorname\highlight9\cf8\b ,\highlight11\cf10\b0 Bookname\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight13\cf12 int\highlight1\cf0  \highlight11\cf10 isbcno\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight11\cf10 Book\highlight9\cf8\b (\highlight11\cf10\b0 String\highlight1\cf0  \highlight11\cf10 Authorname\highlight9\cf8\b ,\highlight11\cf10\b0 String\highlight1\cf0  \highlight11\cf10 Bookname\highlight9\cf8\b ,\highlight13\cf12\b0 int\highlight1\cf0  \highlight11\cf10 isbcno\highlight9\cf8\b )\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b this\highlight9\cf8 .\highlight11\cf10\b0 Authorname\highlight9\cf8\b =\highlight11\cf10\b0 Authorname\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b this\highlight9\cf8 .\highlight11\cf10\b0 Bookname\highlight9\cf8\b =\highlight11\cf10\b0 Bookname\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b this\highlight9\cf8 .\highlight11\cf10\b0 isbcno\highlight9\cf8\b =\highlight11\cf10\b0 isbcno\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\tab \highlight13\cf12 public\highlight1\cf0  \highlight11\cf10 String\highlight1\cf0  \highlight11\cf10 toString\highlight9\cf8\b ()\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b return\highlight1\cf0\b0  \highlight7\cf6 "Authorname : "\highlight9\cf8\b +\highlight11\cf10\b0 Authorname\highlight9\cf8\b +\highlight7\cf6\b0 "\\n"\highlight9\cf8\b +\highlight7\cf6\b0 "Bookname : "\highlight9\cf8\b +\highlight11\cf10\b0 Bookname\highlight9\cf8\b +\highlight7\cf6\b0 "\\n"\highlight9\cf8\b +\highlight7\cf6\b0 "isbcno : "\highlight9\cf8\b +\highlight11\cf10\b0 isbcno\highlight9\cf8\b ;\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\highlight13\cf12 class\highlight1\cf0  \highlight11\cf10 Books\highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \highlight13\cf12 public\highlight1\cf0  \highlight13\cf12 static\highlight1\cf0  \highlight13\cf12 void\highlight1\cf0  \highlight11\cf10 main\highlight9\cf8\b (\highlight11\cf10\b0 String\highlight9\cf8\b ...\highlight11\cf10\b0 args\highlight9\cf8\b )\highlight5\cf4 throws\highlight1\cf0\b0  \highlight11\cf10 IOException\highlight9\cf8\b ,\highlight11\cf10\b0 ClassNotFoundException\highlight1\cf0 \par
+\tab \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >\highlight1\cf0\b0  \highlight11\cf10 l\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Book\highlight1\cf0  \highlight11\cf10 b1\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 Book\highlight9\cf8\b (\highlight7\cf6\b0 "ABCD"\highlight9\cf8\b ,\highlight7\cf6\b0 "About Life"\highlight9\cf8\b ,\highlight3\cf2\b0 3982\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Book\highlight1\cf0  \highlight11\cf10 b2\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 Book\highlight9\cf8\b (\highlight7\cf6\b0 "EFGH"\highlight9\cf8\b ,\highlight7\cf6\b0 "Positiviy"\highlight9\cf8\b ,\highlight3\cf2\b0 3946\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Book\highlight1\cf0  \highlight11\cf10 b3\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 Book\highlight9\cf8\b (\highlight7\cf6\b0 "IJKL"\highlight9\cf8\b ,\highlight7\cf6\b0 "Smiling faces"\highlight9\cf8\b ,\highlight3\cf2\b0 1215\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Book\highlight1\cf0  \highlight11\cf10 b4\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 Book\highlight9\cf8\b (\highlight7\cf6\b0 "MNOP"\highlight9\cf8\b ,\highlight7\cf6\b0 "Happiness"\highlight9\cf8\b ,\highlight3\cf2\b0 6533\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 l\highlight9\cf8\b .\highlight11\cf10\b0 add\highlight9\cf8\b (\highlight11\cf10\b0 b1\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 l\highlight9\cf8\b .\highlight11\cf10\b0 add\highlight9\cf8\b (\highlight11\cf10\b0 b2\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 l\highlight9\cf8\b .\highlight11\cf10\b0 add\highlight9\cf8\b (\highlight11\cf10\b0 b3\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 l\highlight9\cf8\b .\highlight11\cf10\b0 add\highlight9\cf8\b (\highlight11\cf10\b0 b4\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b for\highlight9\cf8 (\highlight11\cf10\b0 Book\highlight1\cf0  \highlight11\cf10 b\highlight9\cf8\b :\highlight11\cf10\b0 l\highlight9\cf8\b )\highlight1\cf0\b0 \par
+\tab \tab \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \tab \highlight11\cf10 System\highlight9\cf8\b .\highlight11\cf10\b0 out\highlight9\cf8\b .\highlight11\cf10\b0 println\highlight9\cf8\b (\highlight11\cf10\b0 b\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 FileOutputStream\highlight1\cf0  \highlight11\cf10 fos\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 FileOutputStream\highlight9\cf8\b (\highlight7\cf6\b0 "C:\\Users\\software 5\\Documents\\Java\\Books.txt"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 ObjectOutputStream\highlight1\cf0  \highlight11\cf10 oos\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 ObjectOutputStream\highlight9\cf8\b (\highlight11\cf10\b0 fos\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 oos\highlight9\cf8\b .\highlight11\cf10\b0 writeObject\highlight9\cf8\b (\highlight11\cf10\b0 l\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 oos\highlight9\cf8\b .\highlight11\cf10\b0 close\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 fos\highlight9\cf8\b .\highlight11\cf10\b0 close\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 FileInputStream\highlight1\cf0  \highlight11\cf10 fis\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 FileInputStream\highlight9\cf8\b (\highlight7\cf6\b0 "C:\\Users\\software 5\\Documents\\Java\\Books.txt"\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 ObjectInputStream\highlight1\cf0  \highlight11\cf10 ois\highlight9\cf8\b =\highlight5\cf4 new\highlight1\cf0\b0  \highlight11\cf10 ObjectInputStream\highlight9\cf8\b (\highlight11\cf10\b0 fis\highlight9\cf8\b );\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >\highlight1\cf0\b0  \highlight11\cf10 rd\highlight9\cf8\b =(\highlight11\cf10\b0 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >)\highlight11\cf10\b0 ois\highlight9\cf8\b .\highlight11\cf10\b0 readObject\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 ois\highlight9\cf8\b .\highlight11\cf10\b0 close\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 fis\highlight9\cf8\b .\highlight11\cf10\b0 close\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >\highlight1\cf0\b0  \highlight11\cf10 clo\highlight9\cf8\b =(\highlight11\cf10\b0 LinkedHashSet\highlight9\cf8\b <\highlight11\cf10\b0 Book\highlight9\cf8\b >)\highlight11\cf10\b0 rd\highlight9\cf8\b .\highlight11\cf10\b0 clone\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight11\cf10 Iterator\highlight1\cf0  \highlight11\cf10 it\highlight9\cf8\b =\highlight11\cf10\b0 clo\highlight9\cf8\b .\highlight11\cf10\b0 iterator\highlight9\cf8\b ();\highlight1\cf0\b0 \par
+\tab \tab \highlight5\cf4\b while\highlight9\cf8 (\highlight11\cf10\b0 it\highlight9\cf8\b .\highlight11\cf10\b0 hasNext\highlight9\cf8\b ())\highlight1\cf0\b0 \par
+\tab \tab \highlight9\cf8\b \{\highlight1\cf0\b0 \par
+\tab \tab \tab \highlight11\cf10 System\highlight9\cf8\b .\highlight11\cf10\b0 out\highlight9\cf8\b .\highlight11\cf10\b0 println\highlight9\cf8\b (\highlight11\cf10\b0 it\highlight9\cf8\b .\highlight11\cf10\b0 next\highlight9\cf8\b ());\highlight1\cf0\b0 \par
+\tab \tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\tab \highlight9\cf8\b \}\highlight1\cf0\b0 \par
+\highlight9\cf8\b \}}
